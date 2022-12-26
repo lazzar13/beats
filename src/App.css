@@ -1,38 +1,275 @@
+body{
+  background-color: #131533;
+}
 .App {
-  text-align: center;
+ 
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  padding-left: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes rotate {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 200px);
+  }
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+@keyframes shape {
+  0% {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+  }
+}
+@keyframes path {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, 100px);
+  }
+  100% {
+    transform: translate(200px, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1);
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+}
+@keyframes skew {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  100% {
+    transform: skew(45deg, 45deg);
+  }
+}
+@keyframes wobble {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  45% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes appear {
+  0%{
+    opacity: 0;
+  }
+  15% {
+    transform: rotate(-5deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+.slk{
+  animation:appear 5s linear;
+}
+.card {
+  width: 450px;
+  height:150px;
+  margin:10px;
+  border: 1px solid #354189;
+  border-radius: 8px;
+  background: #292d57;
+  box-sizing: border-box;
+  display:grid;
+  text-align: center;
+  animation:rotate 5s linear;
+  margin-top: 30px;
+}
+@media only screen and (min-device-width: 400px) and (max-device-width: 650px) {
+  .card{
+    width:350px;
+  }
+  .slk{
+    width: 250px;
+    justify-self: center;
+  }
+  .App{
+    width: 400px;
+  }
+}
+.bioDiv{
+  display:grid;
+   justify-content:center;
+   text-align: center;
+}
+.container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lod{
+  
+  margin:auto;
+  margin-top: 250px;
+}
+.wrapper{
+  display:flex;
+  flex-wrap: wrap;  
+  gap:5%;
+  justify-content: center;
+
+}
+.elem{
+  padding: 5px;
+  margin-top: 10px;
+}
+.center {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.volume-button {
+  
+}
+
+.volume-slider {
+  width:110px;
+  height: 80%;
+}
+button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;}
+  button:hover {
+    background-color: #555;
+  }
+  button:active {
+    background-color: #777;
+  }
+input[type="range"] {
+    /* Change the appearance of the sliders */
+    -webkit-appearance: none;
+    height: 15px;
+    background-color:#a09edd;
+    outline: none;
+    border-radius: 20px;
+    margin-left:7px;
+    margin-right:7px;
+    padding-left: 2px;
+    padding-right: 2px;}
+
+    input::-webkit-slider-thumb {
+      
+      -webkit-appearance: none;
+      width: 12px;
+      height: 12px;
+      background-color: #131533;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    input::-moz-range-thumb {
+      width: 12px;
+      height: 12px;
+      background-color: #131533;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+/*
+audio::-webkit-media-controls-panel{
+  background-color: #a09edd;
+ 
+}
+audio::-webkit-media-controls-play-button{
+  color: #5361ab;
+
+}
+audio::-webkit-media-controls-play-button:hover{
+  color: red;
+  transform: rotate(90deg);
+ 
+}
+audio::-webkit-media-controls-current-time-display{
+  color:red;
+}
+
+audio::-webkit-media-controls-time-remaining-display{
+  color:red;
+}
+audio::-webkit-media-controls-timeline{
+}
+audio::-webkit-media-controls-volume-slider{
+  background-color:red
+}
+audio::-webkit-media-controls-mute-button{
+  background-color:red
+}*/
+.vertical {
+  writing-mode: bt-lr;
+  height: 70px;
+  appearance: slider-vertical;
+}   
+
