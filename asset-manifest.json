@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/beats/static/css/main.3b02174e.css",
+    "main.js": "/beats/static/js/main.44254f48.js",
+    "static/js/787.423c9f15.chunk.js": "/beats/static/js/787.423c9f15.chunk.js",
+    "static/media/2 110bpm rnb.mp3": "/beats/static/media/2 110bpm rnb.bd2d459db9499889287a.mp3",
+    "static/media/4 140bpm Ym2.mp3": "/beats/static/media/4 140bpm Ym2.921cec7b9c7236264842.mp3",
+    "static/media/5 161Bpm H V.mp3": "/beats/static/media/5 161Bpm H V.85a5054dcffd8fe6ddb3.mp3",
+    "static/media/3 146Bpm Ym.mp3": "/beats/static/media/3 146Bpm Ym.d24fd0144bab57ec96b5.mp3",
+    "static/media/6 Talk 140Bpm Cc.mp3": "/beats/static/media/6 Talk 140Bpm Cc.3a6b6efb29e5f4122778.mp3",
+    "static/media/goy.mp3": "/beats/static/media/goy.4dbff79da47879f317a5.mp3",
+    "static/media/1 cc 145Bpm.mp3": "/beats/static/media/1 cc 145Bpm.2e70585bac653499063b.mp3",
+    "static/media/bt.png": "/beats/static/media/bt.eed732f10aab02df6663.png",
+    "static/media/logo.svg": "/beats/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/beats/index.html",
+    "main.3b02174e.css.map": "/beats/static/css/main.3b02174e.css.map",
+    "main.44254f48.js.map": "/beats/static/js/main.44254f48.js.map",
+    "787.423c9f15.chunk.js.map": "/beats/static/js/787.423c9f15.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b02174e.css",
+    "static/js/main.44254f48.js"
+  ]
+}
