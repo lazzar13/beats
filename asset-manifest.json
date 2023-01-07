@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beats/static/css/main.ada62605.css",
-    "main.js": "/beats/static/js/main.2e5a1af8.js",
+    "main.css": "/beats/static/css/main.7c3a3289.css",
+    "main.js": "/beats/static/js/main.355ac9fe.js",
     "static/js/787.423c9f15.chunk.js": "/beats/static/js/787.423c9f15.chunk.js",
     "static/media/2 110bpm rnb.mp3": "/beats/static/media/2 110bpm rnb.bd2d459db9499889287a.mp3",
     "static/media/4 140bpm Ym2.mp3": "/beats/static/media/4 140bpm Ym2.921cec7b9c7236264842.mp3",
@@ -11,7 +11,6 @@
     "static/media/goy.mp3": "/beats/static/media/goy.4dbff79da47879f317a5.mp3",
     "static/media/1 cc 145Bpm.mp3": "/beats/static/media/1 cc 145Bpm.2e70585bac653499063b.mp3",
     "static/media/bgr3.PNG": "/beats/static/media/bgr3.5c4437a3eb81f5f66bdb.PNG",
-    "static/media/bgrmob.jpg": "/beats/static/media/bgrmob.d5fe592c7aa3818af7a5.jpg",
     "static/media/GrinchedRegular.otf": "/beats/static/media/GrinchedRegular.bc1058eedc3a3d230300.otf",
     "static/media/bt.png": "/beats/static/media/bt.eed732f10aab02df6663.png",
     "static/media/college.png": "/beats/static/media/college.6650c95498652a8c87f4.png",
@@ -19,12 +18,12 @@
     "static/media/eff.otf": "/beats/static/media/eff.7755949b001a6dbeccc7.otf",
     "static/media/logo.svg": "/beats/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/beats/index.html",
-    "main.ada62605.css.map": "/beats/static/css/main.ada62605.css.map",
-    "main.2e5a1af8.js.map": "/beats/static/js/main.2e5a1af8.js.map",
+    "main.7c3a3289.css.map": "/beats/static/css/main.7c3a3289.css.map",
+    "main.355ac9fe.js.map": "/beats/static/js/main.355ac9fe.js.map",
     "787.423c9f15.chunk.js.map": "/beats/static/js/787.423c9f15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ada62605.css",
-    "static/js/main.2e5a1af8.js"
+    "static/css/main.7c3a3289.css",
+    "static/js/main.355ac9fe.js"
   ]
 }
